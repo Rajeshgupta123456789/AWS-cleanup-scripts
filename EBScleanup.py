@@ -1,5 +1,5 @@
 import boto3
-
+#written in python 2.7
 # Set the global variables
 globalVars  = {}
 
