@@ -1,7 +1,7 @@
 import datetime, boto3, os, json, logging
 from botocore.exceptions import ClientError
 import datetime, sys
-
+# written in 3.6
 
 # Set the global variables
 globalVars  = {}
