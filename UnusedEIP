@@ -1,6 +1,6 @@
 import boto3
 import os
-
+#written in 3.8 python 
 client = boto3.client('ec2')
 sesClient = boto3.client('ses')
 REGION = "us-east-1"
