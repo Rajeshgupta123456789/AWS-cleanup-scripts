@@ -25,6 +25,8 @@ This repository provides modular Python 3.11 scripts to clean up **unused, orpha
 | `unusedrds.py` | Stopped RDS Instances |
 | `unusedsecretSSM.py` | Old/unused Secrets in Secrets Manager |
 | `securitygrpscan.py` | Scan all AWS regions for security groups with port 22 (SSH) open to the world |
+| `iam_user_audit.py` | Audit IAM users for no MFA, old access keys, and admin privileges |
+| `public_s3_scanner.py` | Detect publicly accessible S3 buckets via ACL or policy |
 
 ---
 
